@@ -1,7 +1,7 @@
 /*
  * Problem: https://start.interviewing.io/interview-ai?problemId=current-url
  * Click `Run` to execute the snippet below!
- * start with simple logic and run it through examples
+ * What I could do to improve: start with simple logic and run it through examples, Avoid premature micro-optimizations or over-abstractions
  * think loud
  */
 
