@@ -7,8 +7,8 @@ import java.util.*;
 
 /*
  * To execute Java, please define "static void main" on a class
- * named Solution.
- *
+ * What I could do to improve: think of the edge cases, understand the operations such as back and forward
+ *       use two stacks if needed
  * If you need more classes, simply define them inline.
  */
 
