@@ -6,8 +6,11 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
+ * What I could do better: 
+ // Based on our discussion, I'd say you would pass this interview. 
+ // You demonstrated a clear understanding of the problem, implemented a correct recursive solution, 
+ // and accurately analyzed the time complexity as O(n) where n is the total number of elements. 
+ // Your space complexity analysis of O(depth) due to the recursion stack was also correct.To execute Java, please define "static void main" on a class
  *
  * If you need more classes, simply define them inline.
  */
