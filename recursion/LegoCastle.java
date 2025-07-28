@@ -20,8 +20,16 @@ import java.util.*;
  * problems solving
  * coding
  * verification:
- * communication: Did I think out loud?
- * If you need more classes, simply define them inline.
+ * communication: Did I think out loud? Do this better
+ * Coding Ability: 4/4 Your solution is correct, well-structured, and properly optimized with memoization for both functions.
+
+// Problem Solving Ability: 3.5/4 You identified the correct recurrence relations and optimized when prompted, though you initially missed the need for memoization in the blocks function.
+
+// Communication Skills: 3/4 You explained your approach clearly but could have been more detailed in walking through your reasoning process initially.
+
+// Overall Feedback: Strong technical performance with correct optimal solution. You effectively used memoization after guidance and demonstrated solid understanding of recursion and dynamic programming. To reach perfection, be more proactive in identifying optimization opportunities and provide more detailed explanations of your thought process upfront.
+ * TC - O(n) because we compute it once and access from the map
+ * SC - O(n) for the map
  */
 
 class Solution {
