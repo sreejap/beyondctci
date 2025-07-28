@@ -12,8 +12,8 @@ import java.util.*;
  * What solutions did I consider / miss?
  * Analysis: Was my solution optimal?
  * What triggers did I find / miss?
- * Any mistaks I keep making? Any bugs to add to the bug list?
- * What could I have done differently?
+ * Any mistakes I keep making? Any bugs to add to the bug list?
+ * What could I have done differently?: I could have used memoization
  * Takeaways:
  * Anything to add to my cheat sheet:
  * Rubric self rating: 
