@@ -28,7 +28,7 @@ import java.util.*;
 // Communication: 4/4 Clearly explained your approach, walked through examples effectively, and correctly analyzed complexity.
 
 // Overall Feedback: Strong technical execution with optimal solution. You demonstrated excellent problem decomposition skills and clear communication throughout. Your recursive approach correctly handles all edge cases and achieves the best possible time complexity.
- * TC - O(n) because - using the formula O( b ^ d * a) - branching factor is 2, depth is log n and additional work done at each level is o(1)
+ * TC - O(n) because - using the formula O( b ^ d * a) - branching factor is 2, depth is log n and additional work done at each node is o(1) - see pg:402 and pg:404
  * SC - O(log n) for number of calls in the stack
  */
 
