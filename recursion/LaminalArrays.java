@@ -6,10 +6,30 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * Post mortem: 
+ * Time to design the algorithm:
+ * Time to code:
+ * What solutions did I consider / miss?
+ * Analysis: Was my solution optimal? yes..this reminded me of using int arrays to pass when we need int values to be tracked. I did this before.. 
+ * What triggers did I find / miss? this is a tricky divide and conquer problem but they are not so frequent, good to know the technique
+ * Any mistakes I keep making? Any bugs to add to the bug list?
+ * What could I have done differently?: I could have used memoization
+ * Takeaways:
+ * Anything to add to my cheat sheet:
+ * Rubric self rating: 
+ * problems solving
+ * coding
+ * verification:
+ * communication: Did I think out loud? Do this better
+// Coding Ability: 4/4 Clean, optimal divide-and-conquer implementation with proper structure and variable naming.
+
+// Problem Solving: 4/4 Quickly identified the recursive nature and implemented the optimal O(n) solution without hints.
+
+// Communication: 4/4 Clearly explained your approach, walked through examples effectively, and correctly analyzed complexity.
+
+// Overall Feedback: Strong technical execution with optimal solution. You demonstrated excellent problem decomposition skills and clear communication throughout. Your recursive approach correctly handles all edge cases and achieves the best possible time complexity.
+ * TC - O(n) because - using the formula O( b ^ d * a) - branching factor is 2, depth is log n and additional work done at each level is o(1)
+ * SC - O(log n) for number of calls in the stack
  */
 
 class Solution {
