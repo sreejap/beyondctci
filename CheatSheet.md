@@ -5,5 +5,6 @@
 - First step in many graph questions is transforming an edge list to an adjacency list
 - Adjacency list is default but we use Adjacency matrix in case we know that graph is dense
 - One advantage of adjacecny matrix over the adjacency list is that we can check if two nodes, a and b, are neighbors in O(1) time - we simply check if matrix[a][b] is true. However, as mentioned, we can achieve the same with an adjacency list if we turn the inner lists in sets.
-- Graph DFs
+- [Graph DFS](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-1)
+- [Graphy Connected component loop](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-2)
 
