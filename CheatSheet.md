@@ -3,3 +3,4 @@
 
 ## Graphs
 - First step in many graph questions is transforming an edge list to an adjacency list
+- Adjacency list is default but we use Adjacency matrix in case we know that graph is dense
