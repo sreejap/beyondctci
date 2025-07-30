@@ -6,6 +6,6 @@
 - Adjacency list is default but we use Adjacency matrix in case we know that graph is dense
 - One advantage of adjacecny matrix over the adjacency list is that we can check if two nodes, a and b, are neighbors in O(1) time - we simply check if matrix[a][b] is true. However, as mentioned, we can achieve the same with an adjacency list if we turn the inner lists in sets.
 - [Graph DFS](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-1)
-- [Graphy Connected component loop](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-2)
-- [Connected component loop recipe. This technique of tracking predecessors during a graph traversal and then reconstructing the path by following them is a reusable idea in graph algorithms.] (https://github.com/sreejap/beyondctci/blob/master/Graphs/GetSimplePath.java)
+- [Graph Connected component loop](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-2)
+- [Connected component loop recipe. This technique of tracking predecessors during a graph traversal and then reconstructing the path by following them is a reusable idea in graph algorithms.](https://github.com/sreejap/beyondctci/blob/master/Graphs/GetSimplePath.java)
 
