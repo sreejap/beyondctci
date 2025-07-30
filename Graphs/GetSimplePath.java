@@ -14,8 +14,8 @@ class Solution {
   public static ArrayList<Integer> getSimplePath (List<ArrayList<Integer>> adjList, int n1, int n2) {
     Map<Integer,Integer> predecessors = new HashMap <>();
 
-    predecessors.put(n2,null);
-    dfs(n2,predecessors,adjList);
+    predecessors.put(n2,null); // normally we use set but here we need predecessors so we are using a map
+    dfs(n2,predecessors,adjList); // we are starting dfs from node2 so that we don't have reverse the answer in the end
     ArrayList<Integer> res = new ArrayList <>();
     if (!predecessors.containsKey(n2)) {
       return res;
