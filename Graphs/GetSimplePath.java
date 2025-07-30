@@ -6,10 +6,8 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * Understand dfs logic and pseudocode better
+ * 
  */
 
 class Solution {
