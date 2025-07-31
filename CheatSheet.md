@@ -19,4 +19,5 @@ Here is how to initialize list of lists:
 - [Graph DFS](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-1)
 - [Graph Connected component loop](https://start.interviewing.io/beyond-ctci/part-vii-catalog/graphs#recipe-2)
 - [Connected component loop recipe. This technique of tracking predecessors during a graph traversal and then reconstructing the path by following them is a reusable idea in graph algorithms.](https://github.com/sreejap/beyondctci/blob/master/Graphs/GetSimplePath.java)
+- [Graphs tips] (https://interviewing.io/graphs-interview-questions)
 
