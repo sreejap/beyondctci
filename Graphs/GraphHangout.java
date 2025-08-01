@@ -6,10 +6,9 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * What can I do to improve:
+ *  it's a common mistake to forget to add nodes to the BFS queue when you discover them and add them to the distances map.
+ * 
  */
 
 class Solution {
