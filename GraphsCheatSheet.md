@@ -159,7 +159,3 @@ while (!q.isEmpty()) {
 * **Fire Spread / Zombie Infection / Water Fill**
 
 ---
-
-If you want, I can combine all **4 BFS patterns into a one-page visual cheat sheet** that you can print or glance at before interviews.
-
-Do you want me to create that?
