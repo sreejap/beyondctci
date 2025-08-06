@@ -6,8 +6,23 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
+* Coding Ability: 4/4
+* Clean, well-structured code with good method organization
+* Proper handling of data structures (ArrayList, HashSet)
+* Correct implementation of both graph construction and DFS traversal
+* Problem Solving Ability: 4/4
+* Immediately recognized this as a graph connectivity problem
+* Correctly identified nodes (furniture) and edges (reachable pairs)
+* Implemented the optimal approach without needing hints
+* Handled the tricky distance calculation between rectangles perfectly
+* Communication Skills: 4/4
+* Clearly explained your approach from the beginning
+* Walked through your thinking process step by step
+* Accurately analyzed time and space complexity
+* Explained the distance calculation logic thoroughly
+* You demonstrated strong technical skills by recognizing the graph pattern, implementing an efficient solution, and explaining your reasoning clearly throughout.
+* Your distance calculation was particularly impressive - correctly handling both overlapping and separated rectangles.
+* Great work!
  *
  * If you need more classes, simply define them inline.
  */
@@ -15,6 +30,9 @@ import java.util.*;
 class Solution {  
 
   public static double distance(List <Integer> f1, List <Integer> f2) {
+    // important to understand below logic
+    //  I am computing the xGap and yGap --- if they don't share an edge or corner, xGap is the difference of their Maximum start values and Minimum end values ... if they share an edge or corner we get negative value for the differnce so I return 0 in that case...Similarly 
+    // , yGap is either 0 if they share an edge or corner or the difference of their maximum starting y values and minimum ending y values ... then the distance is euclidean distance between the xgap and ygap which is Square root of xgap*xgap + ygap*ygap
     int xGap = Math.max(0, Math.max(f1.get(0), f2.get(0)) - Math.min(f1.get(2), f2.get(2))) ; // max of start x coordinates - min of start y coordinates
     int yGap = Math.max(0,Math.max(f1.get(1),f2.get(1)) - Math.min(f1.get(3),f2.get(3)));
     double distance = Math.sqrt((xGap*xGap) + (yGap*yGap));
