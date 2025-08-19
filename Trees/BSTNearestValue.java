@@ -6,11 +6,9 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
- */
+* T(C) -  O(h) time, O(1) space solution because this is not recursion
+* What I could do better - make sure I talk about the edge cases like what happens when both values are equally close, explain my logic
+*/
 class Node {
   int val;
   Node left;
