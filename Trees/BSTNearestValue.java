@@ -27,7 +27,7 @@ class Solution {
     long NEXT_BELOW = Long.MIN_VALUE;
 
     while (currNode!=null) {
-      if (target ==n.val) {
+      if (target ==currNode.val) {
         return currNode.val;
       }else if (target <currNode.val){
         NEXT_ABOVE = currNode.val;
