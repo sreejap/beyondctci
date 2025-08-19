@@ -1,0 +1,104 @@
+/*
+ * Click `Run` to execute the snippet below!
+ */
+
+import java.io.*;
+import java.util.*;
+
+/*
+ * What went well - I could come up with the code but I missed that in BST all nodes on left must be less than or eq to root and all nodes on the right must be gt or eq to root. 
+ * Then I started implementing as per the AI guidelines 
+ * T(c) - o(n) because we traverse all nodes. I was thinking height of the tree, but that is not correct
+ * S(c) - height of the tree
+ */
+class Node {
+  int val;
+  Node left;
+  Node right;
+  Node (int x) {
+    val = x;
+  }
+}
+
+class Solution {
+  public static boolean isValidBST (Node n, int min, int max) {
+    if (n==null) {
+      return true;
+    }
+
+    if (n.val > max || n.val < min){
+      return false;
+    }
+
+    // if (n.left!=null) { .. no need because we are doing boundary check above
+    //   if (n.left.val > n.val ) {
+    //     return false;
+    //   }
+    // }
+
+    // if (n.right!=null) { .. no need because we are doing boundary check above
+    //   if (n.right.val < n.val ) {
+    //     return false;
+    //   }
+    // }
+
+    System.out.println("node: " + n.val + " min:" + min + " max: " + max);
+    return (isValidBST (n.left, min,n.val) && isValidBST(n.right,n.val,max));
+  }
+  public static void main(String[] args) {
+    Node root = new Node (5);
+    Node n2 = new Node (2);
+    Node n4 = new Node (6);
+    Node n91 = new Node (9);
+    Node n92 = new Node (9);
+    Node n93 = new Node (9);
+    Node n11 = new Node (11);
+    root.left = n2;
+    n2.right = n4;
+
+    root.right = n91;
+    n91.left = n92;
+    n92.right = n93;
+    n91.right = n11;
+    System.out.println("Res: " + isValidBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
+  }
+}
+
+// Your previous Plain Text content is preserved below:
+
+// Hello! Your interview question is below. Write code in this pad just like you would normally – your AI Interviewer will be able to see it.
+
+// # BST Validation
+
+// Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+// A BST is a binary tree where, for _every_ node:
+
+// - All the values on its **left** subtree are _less than or equal_ to the node's value.
+// - All the values on its **right** subtree are _greater than or equal_ to the node's value.
+
+// Example 1:
+//               5
+//             /    \
+//            2      9
+//             \    / \
+//              4  9   11
+//                  \
+//                   9
+// Output: True
+
+// Example 2:
+//               5
+//             /    \
+//            2      12
+//             \    / \
+//              4  10  13
+//                  \
+//                   9
+// Output: False
+
+// Constraints:
+
+// - The number of nodes is at most `10^5`
+// - The height of the tree is at most `500`
+// - The value at each node is between `0` and `10^9`
