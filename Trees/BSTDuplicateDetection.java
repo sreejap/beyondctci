@@ -6,10 +6,30 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * Coding Ability: 3/4 Score: 3/4 Justification: Strong algorithmic implementation with proper inorder traversal. One issue: missing null check for root node could cause runtime error.
+* Problem-Solving: 4/4  
+* Score: 4/4  
+* Justification: Immediately identified optimal inorder traversal approach. Recognized BST property enables sorted traversal for duplicate detection.  
+
+* Communication: 3.5/4  
+* Score: 3.5/4  
+* Justification: Clearly explained approach and reasoning throughout. Minor confusion on initial complexity analysis but corrected well.  
+
+* Overall Feedback:  
+* Excellent work! You identified the optimal O(n) inorder traversal solution immediately and implemented it correctly. You handled the Integer.MIN_VALUE edge case well and added proper early returns. Only missing a null root check. Strong technical performance overall - you'd definitely pass a real interview at a top tech company!  
+
+* Key Strengths:  
+* Immediately recognized the BST property advantage  
+* Clean, readable code structure  
+* Proper complexity analysis (after clarification)  
+* Good problem-solving instincts  
+
+* Minor Improvement:  
+* Add null check for the root parameter to handle empty tree edge case  
+
+* Great job! This was a solid technical interview performance.  
+
+
  */
 
 class Node {
