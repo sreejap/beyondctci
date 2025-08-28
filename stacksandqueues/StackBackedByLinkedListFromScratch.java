@@ -7,6 +7,20 @@ import java.util.*;
 
 /*
  * 
+ * Postmortem:
+ * * What went really well:
+* You correctly identified the optimal approach (using head as stack top)
+* Your core algorithm and logic were spot-on
+* You handled all edge cases properly (empty stack returning null)
+* Time and space complexity analysis was perfect
+* You showed great adaptability by recognizing the inefficiency in your initial queue approach and pivoting
+* Areas for improvement:
+* Code cleanliness: Your solution had debug print statements and commented-out code that should be removed in a real interview
+* Initial approach: While exploring the queue rotation was interesting, recognizing the O(n) inefficiency sooner would have been better
+* Variable naming: Using q for your head node was a bit confusing since it's not actually a queue
+* Key takeaway: Your problem-solving and technical skills were excellent. The main area to focus on for future interviews is writing cleaner, more production-ready code from the start. Remove debug statements and commented code before presenting your final solution.
+* Overall, this was a strong interview performance that demonstrated exactly the kind of technical thinking and adaptability we look for in candidates!
+* Postmortem end ... 
  * * Let me give you my assessment: You would definitely pass this interview! Here's how I'd rate you:
 * Coding ability: 4/4 - You wrote clean, correct code and handled all the edge cases properly. Your implementation is exactly what we'd expect for an optimal solution.
 * Problem solving ability: 4/4 - You initially explored a different approach with the queue rotation, recognized the efficiency issues, and then pivoted to the optimal linked list solution. That shows great problem-solving flexibility.
