@@ -6,10 +6,16 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
+ * Understand the recipe well - this is a good one
+ * * Coding Ability: 4/4 Your implementation is clean, correct, and uses appropriate data structures. The logic in lines 20-24 correctly identifies positive days, lines 28-32 properly build the prefix sum, and lines 35-43 handle range queries correctly with proper edge case handling.  
+
+* Problem Solving Ability: 4/4 You immediately recognized this as a range sum query problem and applied the optimal prefix sum technique. You arrived at the correct O(n + p) solution without needing hints and demonstrated strong algorithmic thinking.  
+
+* Communication Skills: 3/4 You explained your approach clearly and walked through your solution methodically. Minor deduction for initially being less precise with complexity analysis, but you corrected well when prompted.  
+
+* Overall Feedback: Excellent performance! You demonstrated strong technical skills by identifying the pattern, implementing an efficient solution, and correctly analyzing complexity. Your code is well-structured and handles all cases properly. To reach perfect communication, be more precise in initial complexity discussions.  
+
  *
- * If you need more classes, simply define them inline.
  */
 
 class Solution {
