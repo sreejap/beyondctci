@@ -84,4 +84,3 @@ void dfs(int node) {
 
 ---
 
-Do you want me to create **DFS cheat sheet + timing diagram in one image** like your BFS one?
