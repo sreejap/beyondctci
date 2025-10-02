@@ -8,15 +8,11 @@ import java.util.*;
 /*
  * To execute Java, please define "static void main" on a class
  * named Solution.
- *
- * If you need more classes, simply define them inline.
+ * Time: O(V + E) for topological sort and path count. Extra space: O(V).
+ * Why do we need to use topological sorting - If you processed a node before all its predecessors, you wouldn't have the complete count of paths to that node yet, so when you propagate paths to its neighbors, you'd be using an incomplete count.
+ * The topological order ensures that when you process any node, you've already processed all nodes that can reach it, so you have the final count of paths to that node.
  */
-// class Edge {
-//   int v;  
-//   Edge (int dest){
-//     v = dest;    
-//   }
-// }
+
 class Solution {
   public static List <Integer> getTopoOrder (ArrayList <ArrayList<Integer>> graph) {
     int V = graph.size();
