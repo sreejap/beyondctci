@@ -6,10 +6,10 @@ import java.io.*;
 import java.util.*;
 
 /*
- * To execute Java, please define "static void main" on a class
- * named Solution.
+ * T(C) - O(V + E) = O(26 + n) = O(n), and your space complexity for storing the graph is also O(26 + n) = O(n).
+ * because number of nodes are lower case letters that is 26, constant. we can assume words are of length n
  *
- * If you need more classes, simply define them inline.
+ * 
  */
 
 class Solution {
