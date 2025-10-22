@@ -1,5 +1,7 @@
 /*
  * https://start.interviewing.io/interview-ai/code?problemId=most-weekly-sales
+ * Time O(n) and space O(1) complexity
+ * make sure to include edge case handling
  */
 
 import java.io.*;
