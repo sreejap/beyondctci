@@ -1,5 +1,7 @@
 /*
  * https://start.interviewing.io/interview-ai/code?problemId=ad-campaign-boost
+ * T(C) - o(n) ... r moves the pointer once, l is not reset and touches each element atmost once...so total both touch each element 2n times max, no n squared
+ * S(C) - o(1)
  */
 
 import java.io.*;
