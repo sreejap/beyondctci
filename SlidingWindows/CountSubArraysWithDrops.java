@@ -14,6 +14,10 @@ import java.util.*;
 
 class Solution {
   public static int getAtmostKDrops (int [] arr, int k) {
+    if (arr == null || arr.length == 0){
+      return 0;
+      
+    }
     int l = 0;
     int r = 0;
 
