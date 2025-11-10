@@ -16,3 +16,5 @@ Techniques
 - Index as a hash key
 - Traversing the array more than once
 
+
+https://algo.monster/problems/keyword_to_algo
